@@ -9,7 +9,7 @@
 html{
   scroll-behavior: smooth;
 }
-.image-description, .likeButton {
+.image-description {
   display: none;
 }
 

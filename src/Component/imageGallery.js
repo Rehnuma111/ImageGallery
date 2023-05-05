@@ -139,7 +139,7 @@ const ImageGallery = () => {
                   <img src={item.image} alt={item.name} className="w-full h-60" />
                   <div className="absolute top-0 left-0 w-full h-full bg-slate-400 opacity-0 transition-opacity duration-300 hover:opacity-30"></div>
                 </div>
-                <div className="absolute  text-red-500 text-2xl top-2 right-2 likeButton">
+                <div className="absolute  text-red-500 text-2xl top-2 right-2 ">
                   <LikeButton itemId={item.id} />
                 </div>
                 <div className="">
