@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AiFillLike, AiFillDislike } from "react-icons/ai";
+import {FcLikePlaceholder, FcLike} from "react-icons/fc";
 import data from "../data.json";
 
 const ImageGallery = () => {
@@ -83,7 +83,7 @@ const LikeButton = ({ itemId }) => {
 
   return (
     <button onClick={toggleLiked}>
-      {liked ? <AiFillLike /> : <AiFillDislike />}
+      {liked ? <FcLike/> : <FcLikePlaceholder />}
     </button>
   );
 };
