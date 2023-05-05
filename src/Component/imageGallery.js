@@ -20,7 +20,7 @@ const ImageGallery = () => {
   return (
     <div>
       <header className="bg-gray-800 py-5  flex items-center justify-between sticky top-0 z-50 ">
-        <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10  ">
+        <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10 max-[320px]:hidden ">
           <img src="https://celestialbody.com/wp-content/uploads/2017/09/logowhite.jpg" />
         </div>
         

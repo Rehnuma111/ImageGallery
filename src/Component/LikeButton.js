@@ -4,7 +4,7 @@ import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 const LikeButton = ({ itemId }) => {
   const [liked, setLiked] = useState(() => {
     const storedLiked = localStorage.getItem(`liked_${itemId}`);
-    return storedLiked === 'false';
+    return storedLiked === 'true';
   });
 
   useEffect(() => {
