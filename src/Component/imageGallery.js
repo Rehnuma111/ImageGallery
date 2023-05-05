@@ -20,7 +20,7 @@ const ImageGallery = () => {
   return (
     <div>
       <header className="bg-gray-800 py-5  flex items-center justify-between sticky top-0 z-50 ">
-        <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10 max-[320px]:hidden ">
+        <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10 max-[640px]:hidden ">
           <img src="https://celestialbody.com/wp-content/uploads/2017/09/logowhite.jpg" />
         </div>
         
@@ -28,7 +28,7 @@ const ImageGallery = () => {
           <div>
             <input
               type="text"
-              className=" sm:w-1/2 md:w-1/2 px-7 rounded-sm py-3 border-none focus:ring-0  focus:outline-none  "
+              className=" sm:w-1/2 md:w-1/2 px-7 rounded-sm py-3 border-none focus:ring-0  focus:outline-none  max-[639px]:w-4/5"
               placeholder="search images........"
               onChange={handleFilterChange}
             />
